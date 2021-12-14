@@ -1,17 +1,20 @@
-// Variables et Fonctions 
-@import 'functions';
-@import 'var';
+// Variables et Fonctions
+@import "functions";
+@import "var";
 
 // Le basique et la mise en place
-@import 'base';
-@import 'breakpoints';
+@import "base";
+@import "breakpoints";
+@import "grid";
 
 // Couleurs
-@import 'couleurs';
+@import "couleurs";
 
 // Composants(boutons, cartes, navbar)
-@import 'composant/card';
-@import 'composant/button';
+@import "composant/card";
+@import "composant/button";
+@import "composant/navbar";
+@import "composant/badge";
 
-// Utilities (margin, padding, opacity) 
-@import 'utilities';
+// Utilities (margin, padding, opacity)
+@import "utilities";
